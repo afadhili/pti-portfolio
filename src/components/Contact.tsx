@@ -72,7 +72,7 @@ const Contact = () => {
           }}
         ></div>
       ))}
-      <div className="container mx-auto px-4 z-10">
+      <div className="container mx-auto z-10">
         <div data-aos="fade-up">
           <TitleText
             text="Get In Touch"
@@ -80,7 +80,7 @@ const Contact = () => {
           />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 px-4">
           <div data-aos="fade-right" data-aos-delay="200">
             <h3 className="text-2xl font-semibold mb-6 text-foreground">
               Contact Information

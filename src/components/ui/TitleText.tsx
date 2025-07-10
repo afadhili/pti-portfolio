@@ -18,7 +18,7 @@ export default function TitleText({
       />
       <div className="w-20 h-1 bg-primary mx-auto mt-8"></div>
       {description ? (
-        <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
+        <p className="mt-4 text-muted-foreground max-w-2xl mx-auto px-4">
           {description}
         </p>
       ) : null}

@@ -9,20 +9,20 @@ const Hero = () => {
       className="relative min-h-screen flex items-center pt-16 bg-background"
     >
       <div className="absolute inset-0 z-0">
-      {generateRandomBackgrounds(3).map((bg, idx) => (
-        <div
-          key={idx}
-          className="absolute rounded-full blur-[180px] opacity-50"
-          style={{
-            width: bg.width,
-            height: bg.height,
-            top: bg.top,
-            left: bg.left,
-            right: bg.right,
-            backgroundColor: bg.color
-          }}
-        ></div>
-      ))}
+        {generateRandomBackgrounds(3).map((bg, idx) => (
+          <div
+            key={idx}
+            className="absolute rounded-full blur-[180px] opacity-50"
+            style={{
+              width: bg.width,
+              height: bg.height,
+              top: bg.top,
+              left: bg.left,
+              right: bg.right,
+              backgroundColor: bg.color,
+            }}
+          ></div>
+        ))}
 
         <Squares
           direction="diagonal"
@@ -38,7 +38,7 @@ const Hero = () => {
           data-aos="fade-right"
           data-aos-delay="200"
         >
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-center">
             <SplitText
               text="Hi, I'm"
               className="text-foreground"
