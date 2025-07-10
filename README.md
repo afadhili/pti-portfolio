@@ -1,6 +1,6 @@
 # Ahmad Fadhili | Portfolio
 
-This is a personal portfolio website for Ahmad Fadhili, showcasing his skills, projects, and career goals. The website is built using React and Vite, with a focus on modern web development practices and a clean, responsive design.
+This is a personal portfolio website. The website is built using React and Vite, with a focus on modern web development practices and a clean, responsive design.
 
 ## Features
 
